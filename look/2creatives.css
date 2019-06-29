@@ -1,0 +1,76 @@
+body {
+  font: normal normal normal 0.75em/1.2 'Helvetica', sans-serif;
+  color: #666;
+}
+
+strong {
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+
+body#maintenance {
+  margin: 1.7em 1.8em;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ie body#maintenance {
+  background-position: center 0;
+}
+
+#maintenance header, #maintenance article {
+  opacity: 0.9;
+  width: 17em;
+}
+
+.ie #maintenance header, .ie #maintenance article {
+  width: 17.1em;
+}
+
+#maintenance header {
+  background: white url('logo_170.png') no-repeat 1.5em 1.7em;
+  display: block;
+}
+
+#maintenance h1 {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 2.75em;
+  margin-bottom: 0.42em;
+}
+
+.ie #maintenance header {
+  /* IE7 */
+  *height: 5.5em;
+}
+
+
+.ie #maintenance h1 {
+  margin: 0;
+}
+
+#maintenance article {
+  display: block;
+  padding: 1px 0;
+  background: white;
+}
+
+.ie #maintenance article {
+  margin-top: 0.8em;
+}
+
+#maintenance article p {
+  margin: 1.45em 1.5em;
+}
+
+#maintenance .liame {
+  margin-top: 0.7em;
+  display: block;
+}
